@@ -1,4 +1,11 @@
 # Front End
+### Installation (branch develop)
+```bash
+git clone https://github.com/ppppHHHuuuu/Tool-Integrating.git
+cd FE
+npm install
+npm run dev
+```
 - Route
   - Homepage
   - Tool -> upload file -> analyze resuly
