@@ -1,8 +1,17 @@
 # Front End
+- Route
+  - Homepage
+  - Tool -> upload file -> analyze resuly
+  - Login/Register
+    - By github
+    - By Email/username, authencation by email
+  - Coverage (Detectors page)
+  - About
 ## Done
-
+- Basic UI, components
 ## Todo
-
+- Doc page
+- analyze result page
 # Back End
 ## Done
 ## Todo
