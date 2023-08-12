@@ -24,11 +24,43 @@
         "documentation": {}
     },
     {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "Flask",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "venv",
+        "description": "venv",
+        "isExtraImport": true,
+        "detail": "venv",
+        "documentation": {}
+    },
+    {
+        "label": "Log",
+        "importPath": "tools.utils.Log",
+        "description": "tools.utils.Log",
+        "isExtraImport": true,
+        "detail": "tools.utils.Log",
+        "documentation": {}
+    },
+    {
+        "label": "Log",
+        "importPath": "tools.utils.Log",
+        "description": "tools.utils.Log",
+        "isExtraImport": true,
+        "detail": "tools.utils.Log",
         "documentation": {}
     },
     {
@@ -383,14 +415,6 @@
         "documentation": {}
     },
     {
-        "label": "Log",
-        "importPath": "tools.utils.Log",
-        "description": "tools.utils.Log",
-        "isExtraImport": true,
-        "detail": "tools.utils.Log",
-        "documentation": {}
-    },
-    {
         "label": "obj_to_jsonstr",
         "importPath": "tools.utils.parsers",
         "description": "tools.utils.parsers",
@@ -567,7 +591,7 @@
         "kind": 2,
         "importPath": "BE.server.route.tool.tool",
         "description": "BE.server.route.tool.tool",
-        "peekOfCode": "def response():\n    return {\n    }",
+        "peekOfCode": "def response():\n    uploaded_files = request.files.getlist('file2')\n    Log.info(len(uploaded_files))\n    for f in uploaded_files:\n        Log.info(f.filename)\n    return \"hehe\"",
         "detail": "BE.server.route.tool.tool",
         "documentation": {}
     },
@@ -576,7 +600,7 @@
         "kind": 5,
         "importPath": "BE.server.route.tool.tool",
         "description": "BE.server.route.tool.tool",
-        "peekOfCode": "tool_route = Blueprint(\"tool\", __name__, url_prefix=\"/tool\")\n@tool_route.route(\"/\")\ndef response():\n    return {\n    }",
+        "peekOfCode": "tool_route = Blueprint(\"tool\", __name__, url_prefix=\"/tool\")\n@tool_route.post(\"/\")\ndef response():\n    uploaded_files = request.files.getlist('file2')\n    Log.info(len(uploaded_files))\n    for f in uploaded_files:\n        Log.info(f.filename)\n    return \"hehe\"",
         "detail": "BE.server.route.tool.tool",
         "documentation": {}
     },
@@ -1035,7 +1059,7 @@
         "kind": 5,
         "importPath": "BE.test_tool",
         "description": "BE.test_tool",
-        "peekOfCode": "dataPath = pathlib.Path(__file__).parent.resolve()\n(final, raw) = Mythril.analyze(\n    r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs',\n    'swc-107.sol'\n)",
+        "peekOfCode": "dataPath = pathlib.Path(__file__).parent.resolve()\n(final, raw) = Mythril.analyze(\n    r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs',\n    'swc-107.sol'\n)\nMythril.export_result(\"swc-107\", raw, final)",
         "detail": "BE.test_tool",
         "documentation": {}
     }
