@@ -27,6 +27,12 @@ npm run dev
 3. Handle Database
 
 # Core
+## General
+### Done
+1. Analyzing files asynchronously
+### Todo
+1. Consider integrating HoneyBadger
+
 ## Mythril
 ### Done
 1. Pull image from Docker
