@@ -4,6 +4,8 @@ from os.path import dirname
 import pathlib
 from Tool import *
 import ast
+
+
 folder_path = dirname(dirname(pathlib.Path(__file__).parent.resolve()))
 SWC_no = '117'
 file_name = 'output'
@@ -26,14 +28,25 @@ def find_contract (element):
             contract = find_contract(element["type_specific_fields"]["parent"])
             return contract 
 
-    
-            
 
-def list_elements (detectors):
+def get_smallest_element(elements: list[dict]) -> dict:
+    if (len(elements) == 0): 
+        return {}
+    elif (len(elements) == 1):
+        return elements[0]
+    else:
+        for element in elements:
+            #TODO:will add more
+            if element["type"] == "node":
+                return element
+            
+    return elements[0]
+
+def list_elements (detectors: list[Ana]):
     for detector in detectors:
         elements = detector.get("elements")
-        for element in elements:
-            element_name = element.get("name")
+        element = get_smallest_element(elements)
+        element_name = element.get("name")
             contract = find_contract(element)
             description = detector.get("description", "")
             lines = element.get("source_mapping", {}).get("lines", [])
