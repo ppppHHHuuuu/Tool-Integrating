@@ -64,6 +64,22 @@
         "documentation": {}
     },
     {
+        "label": "Log",
+        "importPath": "tools.utils.Log",
+        "description": "tools.utils.Log",
+        "isExtraImport": true,
+        "detail": "tools.utils.Log",
+        "documentation": {}
+    },
+    {
+        "label": "Log",
+        "importPath": "tools.utils.Log",
+        "description": "tools.utils.Log",
+        "isExtraImport": true,
+        "detail": "tools.utils.Log",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -196,19 +212,78 @@
         "documentation": {}
     },
     {
-        "label": "Log",
-        "importPath": "tools.utils",
-        "description": "tools.utils",
+        "label": "concurrent.futures",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "tools.utils",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "detail": "concurrent.futures",
         "documentation": {}
     },
     {
-        "label": "Log",
-        "importPath": "tools.utils",
-        "description": "tools.utils",
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
         "isExtraImport": true,
-        "detail": "tools.utils",
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -218,38 +293,6 @@
         "importPath": "traceback",
         "description": "traceback",
         "detail": "traceback",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -285,15 +328,6 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -303,14 +337,6 @@
         "documentation": {}
     },
     {
-        "label": "e",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
         "label": "Tool",
         "importPath": "tools.Tool",
         "description": "tools.Tool",
@@ -352,6 +378,14 @@
     },
     {
         "label": "FinalResult",
+        "importPath": "tools.Tool",
+        "description": "tools.Tool",
+        "isExtraImport": true,
+        "detail": "tools.Tool",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
         "importPath": "tools.Tool",
         "description": "tools.Tool",
         "isExtraImport": true,
@@ -399,6 +433,24 @@
         "documentation": {}
     },
     {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "importPath": "time",
         "description": "time",
@@ -407,11 +459,43 @@
         "documentation": {}
     },
     {
+        "label": "coroutine",
+        "importPath": "types",
+        "description": "types",
+        "isExtraImport": true,
+        "detail": "types",
+        "documentation": {}
+    },
+    {
         "label": "Docker",
         "importPath": "tools.docker.Docker",
         "description": "tools.docker.Docker",
         "isExtraImport": true,
         "detail": "tools.docker.Docker",
+        "documentation": {}
+    },
+    {
+        "label": "Docker",
+        "importPath": "tools.docker.Docker",
+        "description": "tools.docker.Docker",
+        "isExtraImport": true,
+        "detail": "tools.docker.Docker",
+        "documentation": {}
+    },
+    {
+        "label": "Async",
+        "importPath": "tools.utils.Async",
+        "description": "tools.utils.Async",
+        "isExtraImport": true,
+        "detail": "tools.utils.Async",
+        "documentation": {}
+    },
+    {
+        "label": "Async",
+        "importPath": "tools.utils.Async",
+        "description": "tools.utils.Async",
+        "isExtraImport": true,
+        "detail": "tools.utils.Async",
         "documentation": {}
     },
     {
@@ -535,22 +619,6 @@
         "documentation": {}
     },
     {
-        "label": "Mythril",
-        "importPath": "tools.Mythril",
-        "description": "tools.Mythril",
-        "isExtraImport": true,
-        "detail": "tools.Mythril",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "tools.Slither",
-        "description": "tools.Slither",
-        "isExtraImport": true,
-        "detail": "tools.Slither",
-        "documentation": {}
-    },
-    {
         "label": "response",
         "kind": 2,
         "importPath": "BE.server.route.login.login",
@@ -591,7 +659,7 @@
         "kind": 2,
         "importPath": "BE.server.route.tool.tool",
         "description": "BE.server.route.tool.tool",
-        "peekOfCode": "def response():\n    uploaded_files = request.files.getlist('file2')\n    Log.info(len(uploaded_files))\n    for f in uploaded_files:\n        Log.info(f.filename)\n    return \"hehe\"",
+        "peekOfCode": "def response():\n    saved_file_dir: str = r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs'\n    files_names: list[str] = ['swc-107.sol', 'swc-117.sol']\n    return \"hehe\"",
         "detail": "BE.server.route.tool.tool",
         "documentation": {}
     },
@@ -600,7 +668,7 @@
         "kind": 5,
         "importPath": "BE.server.route.tool.tool",
         "description": "BE.server.route.tool.tool",
-        "peekOfCode": "tool_route = Blueprint(\"tool\", __name__, url_prefix=\"/tool\")\n@tool_route.post(\"/\")\ndef response():\n    uploaded_files = request.files.getlist('file2')\n    Log.info(len(uploaded_files))\n    for f in uploaded_files:\n        Log.info(f.filename)\n    return \"hehe\"",
+        "peekOfCode": "tool_route = Blueprint(\"tool\", __name__, url_prefix=\"/tool\")\n@tool_route.post(\"/\")\ndef response():\n    saved_file_dir: str = r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs'\n    files_names: list[str] = ['swc-107.sol', 'swc-117.sol']\n    return \"hehe\"",
         "detail": "BE.server.route.tool.tool",
         "documentation": {}
     },
@@ -611,6 +679,15 @@
         "description": "BE.tools.docker.Docker",
         "peekOfCode": "class Docker:\n    client = docker.from_env()\n    cfg_path = os.path.abspath(os.path.join(os.path.dirname(__file__), \"config.yaml\"))\n    with open(os.path.abspath(cfg_path), 'r', encoding='utf-8') as ymlfile:\n        try:\n            cfg = yaml.safe_load(ymlfile)\n        except yaml.YAMLError as exc:\n            Log.err(exc)\n    @classmethod\n    def __cfg_containers(cls):",
         "detail": "BE.tools.docker.Docker",
+        "documentation": {}
+    },
+    {
+        "label": "Async",
+        "kind": 6,
+        "importPath": "BE.tools.utils.Async",
+        "description": "BE.tools.utils.Async",
+        "peekOfCode": "class Async:\n    @classmethod\n    def run_functions(cls, arr_func: list[Callable], arr_args: list[list]) -> list:\n        \"\"\"Run multiple functions with each arguments separately asynchronously\n        Args:\n            arr_func (list[Callable]): list of functions need to run\n            arr_args (list[list]): arguments for each function\n        Raises:\n            Exception: the length of arr_func is not equal to the length of arr_args\n        Returns:",
+        "detail": "BE.tools.utils.Async",
         "documentation": {}
     },
     {
@@ -699,7 +776,7 @@
         "kind": 6,
         "importPath": "BE.tools.type",
         "description": "BE.tools.type",
-        "peekOfCode": "class ToolName(Enum):\n    Mythril = \"mythril\"\n    Slither = \"slither\"\n@unique\nclass ErrorClassification(Enum):\n    RuntimeOut = \"runtime out\"\n    CompileError = \"compile error\"\n    UnknownError = \"unknown error\"\n@unique \nclass IssueType(Enum):",
+        "peekOfCode": "class ToolName(Enum):\n    Mythril = \"mythril\"\n    Slither = \"slither\"\n@unique\nclass ErrorClassification(Enum):\n    RuntimeOut = \"runtime out\"\n    CompileError = \"compile error\"\n    UnknownError = \"unknown error\"\n@unique\nclass IssueType(Enum):",
         "detail": "BE.tools.type",
         "documentation": {}
     },
@@ -708,7 +785,7 @@
         "kind": 6,
         "importPath": "BE.tools.type",
         "description": "BE.tools.type",
-        "peekOfCode": "class ErrorClassification(Enum):\n    RuntimeOut = \"runtime out\"\n    CompileError = \"compile error\"\n    UnknownError = \"unknown error\"\n@unique \nclass IssueType(Enum):\n    Contract = \"contract\"\n    Function = \"function\"\n    Variable = \"variable\"\n    Node = \"node\"",
+        "peekOfCode": "class ErrorClassification(Enum):\n    RuntimeOut = \"runtime out\"\n    CompileError = \"compile error\"\n    UnknownError = \"unknown error\"\n@unique\nclass IssueType(Enum):\n    Contract = \"contract\"\n    Function = \"function\"\n    Variable = \"variable\"\n    Node = \"node\"",
         "detail": "BE.tools.type",
         "documentation": {}
     },
@@ -1055,11 +1132,29 @@
         "documentation": {}
     },
     {
-        "label": "dataPath",
+        "label": "start",
         "kind": 5,
         "importPath": "BE.test_tool",
         "description": "BE.test_tool",
-        "peekOfCode": "dataPath = pathlib.Path(__file__).parent.resolve()\n(final, raw) = Mythril.analyze(\n    r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs',\n    'swc-107.sol'\n)\nMythril.export_result(\"swc-107\", raw, final)",
+        "peekOfCode": "start = time.time()\nresult = [t.duration for t in asyncio.run(Tool.analyze_files_async(\n    file_dir_path=r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs',\n    files_names=['swc-107.sol']*10\n))]\n# result = Async.run_single_func(Tool.ru)\nend = time.time()\nprint(end - start)\nprint(result)",
+        "detail": "BE.test_tool",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "BE.test_tool",
+        "description": "BE.test_tool",
+        "peekOfCode": "result = [t.duration for t in asyncio.run(Tool.analyze_files_async(\n    file_dir_path=r'D:\\SE_LAB\\SE_Task\\blockchain\\tool\\test-mythril\\bugs',\n    files_names=['swc-107.sol']*10\n))]\n# result = Async.run_single_func(Tool.ru)\nend = time.time()\nprint(end - start)\nprint(result)",
+        "detail": "BE.test_tool",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "BE.test_tool",
+        "description": "BE.test_tool",
+        "peekOfCode": "end = time.time()\nprint(end - start)\nprint(result)",
         "detail": "BE.test_tool",
         "documentation": {}
     }
