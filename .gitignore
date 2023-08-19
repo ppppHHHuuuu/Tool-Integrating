@@ -9,7 +9,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+PittyTest/
+node_modules
 # Distribution / packaging
 .Python
 build/
