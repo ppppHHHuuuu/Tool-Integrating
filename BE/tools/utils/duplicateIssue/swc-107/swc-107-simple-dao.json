@@ -1,0 +1,28 @@
+{
+  "file_name": "swc-107-simple-dao.sol",
+  "tool_name": "slither, mythril",
+  "duration": 6.028630256652832,
+  "analysis": {
+    "errors": [
+      {
+        "error": "unknown error",
+        "msg": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.10/site-packages/mythril/interfaces/cli.py\", line 966, in parse_args_and_execute\n    address = load_code(disassembler, args)\n  File \"/usr/local/lib/python3.10/site-packages/mythril/interfaces/cli.py\", line 717, in load_code\n    address, _ = disassembler.load_from_solidity(\n  File \"/usr/local/lib/python3.10/site-packages/mythril/mythril/mythril_disassembler.py\", line 255, in load_from_solidity\n    self.sigs.import_solidity_file(\n  File \"/usr/local/lib/python3.10/site-packages/mythril/support/signatures.py\", line 246, in import_solidity_file\n    self.add_sigs(file_path, solc_json)\n  File \"/usr/local/lib/python3.10/site-packages/mythril/support/signatures.py\", line 249, in add_sigs\n    for contract in solc_json[\"contracts\"][file_path].values():\nKeyError: 'contracts'\n"
+      }
+    ],
+    "issues": [
+      {
+        "contract": "",
+        "source_map": "",
+        "line_no": [],
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
+        "description": "solc-0.8.20 is not recommended for deployment\n",
+        "hint": "incorrect-versions-of-solidity",
+        "issue_title": "solc-version",
+        "swcID": "SWC-102",
+        "swc_title": "Outdated Compiler Version",
+        "swc_link": "https://swcregistry.io/docs/SWC-102/",
+        "severity": "Informational"
+      }
+    ]
+  }
+}

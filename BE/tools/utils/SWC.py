@@ -63,6 +63,7 @@ map_check_to_issue: dict[str, str] = {
    'incorrect-unary': 'dangerous-unary-expressions',
    'missing-zero-check': 'missing-zero-address-validation',
    'timestamp': 'block-timestamp',
+   'reentrancy-no-eth': 'reentrancy-vulnerabilities',
    'assembly': 'assembly-usage',
    'assert-state-change': 'assert-state-change',
    'boolean-equal': 'boolean-equality',
