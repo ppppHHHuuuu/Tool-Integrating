@@ -89,6 +89,8 @@ map_check_to_issue: dict[str, str] = {
    'external-function': 'public-function-that-could-be-declared-external',
    'immutable-states': 'state-variables-that-could-be-declared-immutable',
    'var-read-using-this': 'public-variable-read-in-external-context',
+   "reentrancy-eth": "reentrancy-vulnerabilities",
+   "reentrancy-events": "reentrancy-vulnerabilities"
 }
 map_slither_check_to_swc: dict[str, str] = {
   "abiencoderv2-array": "N/A",

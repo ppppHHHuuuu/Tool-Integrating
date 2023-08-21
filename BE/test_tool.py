@@ -24,10 +24,12 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 # print(end - start)
 # print(result)
+directory = os.path.join(os.path.dirname(__file__), 'tools', 'storage', 'user1', 'contracts')
+file_names = [file_name for file_name in os.listdir(directory)]
 
 # File lưu ở thư mục storage
 print(obj_to_jsonstr(Tool.run_tools_async(
     sub_container_file_path="user1/contracts",
-    file_name="swc-106.sol"
+    
+    file_name= "swc-107-simple-dao.sol",
 )))
-# print(Mythril.tool_cfg)

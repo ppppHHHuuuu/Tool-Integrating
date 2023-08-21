@@ -1,0 +1,15 @@
+[
+    {
+        "contract": "OutOfBoundsException",
+        "source_map": "98:99:0",
+        "line_no": 7,
+        "code": "function getArrayElement(uint256 idx) public returns (uint256) {\r\n        return array[idx];\r\n    }",
+        "description": "An assertion violation was triggered.\nIt is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).",
+        "hint": "ch\u01b0a l\u00e0m ph\u1ea7n hint",
+        "issue_title": "Exception State",
+        "swcID": "SWC-110",
+        "swc_title": "Assert Violation",
+        "swc_link": "https://swcregistry.io/docs/SWC-110/",
+        "severity": "Medium"
+    }
+]

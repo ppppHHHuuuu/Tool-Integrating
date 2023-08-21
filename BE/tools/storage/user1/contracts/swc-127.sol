@@ -23,7 +23,9 @@ contract FunctionTypes {
         require(msg.value != 0, 'send funds!');
         Func memory func;
         func.f = frwd;
-        assembly { mstore(func, add(mload(func), callvalue)) }
+        assembly { mstore(func, add(mload(func), callvalue)) };
+        int x = 1434;
+
         func.f();
     }
 }

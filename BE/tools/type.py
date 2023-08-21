@@ -22,7 +22,7 @@ class ToolError:
 class AnalysisIssue:
     contract: str
     source_map: str
-    line_no: list[int] | int
+    line_no: list[int]
     code: str #??
     description: str
     hint: str

@@ -1,1 +1,29 @@
-lưu kết quả vào swc-xxx, so sánh và làm giống trong swc-106
+lưu kết quả vào folder duplicateIssue/swc-xxx/, so sánh và làm giống trong duplicateIssue/swc-106
+
+
+SWC-106: {
+    suicidal(Slither) and Unprotected Selfdestruct(Mythril)
+}
+
+SWC-107: {
+    reentrancy-eth (Slither) and External Call To User-Supplied Address (Mythril) => merge,
+    "reentrancy-events"(Slither) and "External Call To User-Supplied Address"(Mythril), 
+    
+}
+SWC-110: {
+    Slither and Mythril both havent detect anything from swc-110-contructor-create-argument, swc-110-return-memory, ... while they should be
+    Cả 2 tool đều không phát hiện được các lỗi của swc-110 trong các file trên
+
+}
+
+SWC-112: {
+    "controlled-delegatecall"(Slither) and "Delegatecall to user-supplied address"(Mythril)
+    "controlled-delegatecall"(Slither) and ""(Mythril) => false positive 
+}
+
+SWC-120: {
+    chưa làm 
+}
+SWC-127: {
+    chưa làm
+}
