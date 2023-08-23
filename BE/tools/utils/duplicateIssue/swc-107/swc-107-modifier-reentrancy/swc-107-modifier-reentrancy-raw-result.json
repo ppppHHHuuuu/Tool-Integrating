@@ -1,7 +1,8 @@
 {
   "file_name": "swc-107-modifier-reentrancy.sol",
   "tool_name": "slither, mythril",
-  "duration": 15.383275270462036,
+  "duration": 51.8949658870697,
+  "solc": "0.5.0",
   "analysis": {
     "errors": [],
     "issues": [

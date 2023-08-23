@@ -1,7 +1,8 @@
 {
-  "file_name": "swc-110-contructor-create-argument.sol",
-  "tool_name": "slither, mythril",
-  "duration": 10.07733416557312,
+  "file_name": "swc-110-return-memory.sol",
+  "tool_name": "slither",
+  "duration": 77.07604479789734,
+  "solc": "0.8.8",
   "analysis": {
     "errors": [],
     "issues": [
@@ -10,7 +11,7 @@
         "source_map": "",
         "line_no": [],
         "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
-        "description": "solc-0.4.22 is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)",
+        "description": "solc-0.8.8 is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)",
         "hint": "incorrect-versions-of-solidity",
         "issue_title": "solc-version",
         "swcID": "SWC-102",
@@ -20,12 +21,12 @@
       },
       {
         "contract": "",
-        "source_map": "64:24:0",
+        "source_map": "421:23:0",
         "line_no": [
-          5
+          17
         ],
         "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
-        "description": "Pragma version^0.4.22 (../../../tmp/user1/contracts/swc-110-contructor-create-argument.sol#5) is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n",       
+        "description": "Pragma version^0.8.8 (../../../tmp/user1/contracts/swc-110-return-memory.sol#17) is known to contain severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)\n",
         "hint": "incorrect-versions-of-solidity",
         "issue_title": "solc-version",
         "swcID": "SWC-102",

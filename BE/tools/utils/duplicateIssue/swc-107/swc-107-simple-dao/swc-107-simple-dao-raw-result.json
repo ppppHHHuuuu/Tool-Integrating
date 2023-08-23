@@ -1,7 +1,8 @@
 {
   "file_name": "swc-107-simple-dao.sol",
   "tool_name": "slither, mythril",
-  "duration": 36.438408613204956,
+  "duration": 30.54279637336731,
+  "solc": "0.4.24",
   "analysis": {
     "errors": [],
     "issues": [

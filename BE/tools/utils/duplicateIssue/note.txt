@@ -1,29 +1,49 @@
 lưu kết quả vào folder duplicateIssue/swc-xxx/, so sánh và làm giống trong duplicateIssue/swc-106
 
 
-SWC-106: {
-    suicidal(Slither) and Unprotected Selfdestruct(Mythril)
+SWC-106: done{
+    Note:
+        suicidal(Slither) and Unprotected Selfdestruct(Mythril)
 }
 
 SWC-107: {
-    reentrancy-eth (Slither) and External Call To User-Supplied Address (Mythril) => merge,
-    "reentrancy-events"(Slither) and "External Call To User-Supplied Address"(Mythril), 
-    
+    Note:
+        reentrancy-eth (Slither) and External Call To User-Supplied Address (Mythril) => merge,
+        "reentrancy-events"(Slither) and "External Call To User-Supplied Address"(Mythril), 
+    swc-107-modifier-reentrancy: done
+    swc-107-reentrancy-eth: done
+    swc-107-simple-dao: done
 }
 SWC-110: {
-    Slither and Mythril both havent detect anything from swc-110-contructor-create-argument, swc-110-return-memory, ... while they should be
-    Cả 2 tool đều không phát hiện được các lỗi của swc-110 trong các file trên
+    Error:
+        swc-110-sha-of-sha-collision: key error line no
+    Note:
+        Slither and Mythril both havent detect anything from swc-110-contructor-create-argument, swc-110-return-memory, ... while they should be
+        Cả 2 tool đều không phát hiện được các lỗi của swc-110 trong các file trên
 
+    swc-110-contructor-create-argument: Mythril ko detect (done)
+    swc-110-out-of-bounds-exception: Slither ko detect lỗi (done)
+    swc-110-return-memory: 2 tools không detect lỗi (done)
+    
+    swc-110-two-mapppings: 2 tools không detect lỗi (done)
 }
 
 SWC-112: {
-    "controlled-delegatecall"(Slither) and "Delegatecall to user-supplied address"(Mythril)
-    "controlled-delegatecall"(Slither) and ""(Mythril) => false positive 
+    Note:
+        "controlled-delegatecall"(Slither) and "Delegatecall to user-supplied address"(Mythril)
+        "controlled-delegatecall"(Slither) and ""(Mythril) => false positive 
+
+    swc-112-proxy: oke
+    swc-112-proxy-pattern: oke
 }
 
 SWC-120: {
-    chưa làm 
+    swc-120-guess-the-number: done
+    swc-120-old-blockhashL done
+    swc-120-random-number-generator: done
 }
 SWC-127: {
-    chưa làm
+    Note:
+        "assembly"(Slither) và Jump to an arbitrary instruction(Mythril)
+    swc-127: done
 }

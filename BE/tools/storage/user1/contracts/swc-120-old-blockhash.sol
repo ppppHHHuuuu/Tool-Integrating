@@ -24,13 +24,19 @@ contract PredictTheBlockHashChallenge {
     }
 
     function settle() public {
-        require(block.number > guesses[msg.sender].block);
+        require(block.number > guesses[msg.sender].block +10);
+        //Note that this solution prevents the attack where blockhash(guesses[msg.sender].block) is zero
+        //Also we add ten block cooldown period so that a minner cannot use foreknowlege of next blockhashes
+        if(guesses[msg.sender].block - block.number < 256){
+          bytes32 answer = blockhash(guesses[msg.sender].block);
 
-        bytes32 answer = blockhash(guesses[msg.sender].block);
-
-        guesses[msg.sender].block = 0;
-        if (guesses[msg.sender].guess == answer) {
-            msg.sender.transfer(2 ether);
+          guesses[msg.sender].block = 0;
+          if (guesses[msg.sender].guess == answer) {
+              msg.sender.transfer(2 ether);
+          }
+        }
+        else{
+          revert("Sorry your lottery ticket has expired");
         }
     }
 }

@@ -1,7 +1,8 @@
 {
   "file_name": "swc-112-proxy-pattern-false-positive.sol",
   "tool_name": "slither, mythril",
-  "duration": 11.439116954803467,
+  "duration": 48.52133321762085,
+  "solc": "0.4.24",
   "analysis": {
     "errors": [],
     "issues": [
@@ -11,7 +12,7 @@
         "line_no": [
           7
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "proxy.proxyCall(address,bytes) (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#6-8) uses delegatecall to a input-controlled function id\n\t- require(bool)(! _to.delegatecall(_data)) (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#7)\n",
         "hint": "controlled-delegatecall",
         "issue_title": "controlled-delegatecall",
@@ -26,7 +27,7 @@
         "line_no": [
           4
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "proxy.owner (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#4) is never initialized. It is used in:\n\t- proxy.withdraw() (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#9-12)\n",
         "hint": "uninitialized-state-variables",
         "issue_title": "uninitialized-state",
@@ -41,7 +42,7 @@
         "line_no": [
           1
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "Pragma version^0.4.24 (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#1) allows old versions\n",
         "hint": "incorrect-versions-of-solidity",
         "issue_title": "solc-version",
@@ -54,7 +55,7 @@
         "contract": "",
         "source_map": "",
         "line_no": [],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "solc-0.4.24 is not recommended for deployment\n",
         "hint": "incorrect-versions-of-solidity",
         "issue_title": "solc-version",
@@ -69,7 +70,7 @@
         "line_no": [
           7
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "Low level call in proxy.proxyCall(address,bytes) (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#6-8):\n\t- require(bool)(! _to.delegatecall(_data)) (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#7)\n",
         "hint": "low-level-calls",
         "issue_title": "low-level-calls",
@@ -84,7 +85,7 @@
         "line_no": [
           6
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "Parameter proxy.proxyCall(address,bytes)._data (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#6) is not in mixedCase\n",
         "hint": "conformance-to-solidity-naming-conventions",
         "issue_title": "naming-convention",
@@ -109,7 +110,7 @@
           12,
           13
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "Contract proxy (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#3-13) is not in CapWords\n",
         "hint": "conformance-to-solidity-naming-conventions",
         "issue_title": "naming-convention",
@@ -124,7 +125,7 @@
         "line_no": [
           6
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "Parameter proxy.proxyCall(address,bytes)._to (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#6) is not in mixedCase\n",
         "hint": "conformance-to-solidity-naming-conventions",
         "issue_title": "naming-convention",
@@ -139,7 +140,7 @@
         "line_no": [
           4
         ],
-        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",  
+        "code": "Kh\u00f4ng c\u00f3 source code :(, FE t\u1ef1 \u0111i\u1ec1n \u1ee9ng v\u1edbi sourcemap nh\u00e9",
         "description": "proxy.owner (../../../tmp/user1/contracts/swc-112-proxy-pattern-false-positive.sol#4) should be constant \n",
         "hint": "state-variables-that-could-be-declared-constant",
         "issue_title": "constable-states",

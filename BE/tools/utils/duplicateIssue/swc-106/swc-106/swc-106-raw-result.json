@@ -1,7 +1,8 @@
 {
   "file_name": "swc-106.sol",
   "tool_name": "slither, mythril",
-  "duration": 5.972994327545166,
+  "duration": 40.01650857925415,
+  "solc": "0.4.11",
   "analysis": {
     "errors": [],
     "issues": [

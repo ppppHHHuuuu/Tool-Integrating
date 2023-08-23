@@ -1,15 +1,15 @@
 [
     {
-        "contract": "mythril",
+        "contract": "slither",
         "source_map": "mythril",
         "line_no": "mythril",
         "code": "mythril",
-        "description": "mythril",
-        "hint": "mythril",
+        "description": "[slither, mythril]",
+        "hint": "slither",
         "issue_title": "mythril",
         "swcID": "mythril",
         "swc_title": "mythril",
         "swc_link": "mythril",
-        "severity": "mythril"
+        "severity": "take the highest"
     }
 ]
